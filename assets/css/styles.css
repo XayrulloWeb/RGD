@@ -220,7 +220,7 @@ a {
   font-size: 10px;
 }
 .orders{
-  height: 88%;
+  height: 83vh;
   overflow: auto;
 }
 
@@ -296,7 +296,6 @@ a {
 .wrapper {
   margin-top: 5vh;
   height: 95vh;
-  margin-bottom: 15vh;
 }
 
 .info {
