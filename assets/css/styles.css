@@ -220,7 +220,8 @@ a {
   font-size: 10px;
 }
 .orders{
-  height: 90%;
+  height: 88%;
+  overflow: auto;
 }
 
 .order{
@@ -260,7 +261,7 @@ a {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 30%;
+  height: 33%;
   background: #f7f1f9;
   opacity: 0;
   pointer-events: none;
@@ -281,7 +282,7 @@ a {
 
 .popup.active {
   transition: 0.5s all;
-  padding: 20px;
+  padding: 0 20px ; 
 }
 
 .close-popup {
@@ -295,6 +296,7 @@ a {
 .wrapper {
   margin-top: 5vh;
   height: 95vh;
+  margin-bottom: 15vh;
 }
 
 .info {
@@ -343,7 +345,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 5vh;
+  height: 6vh;
   padding: 10px 20px;
   background-color: var(--first-color);
   color: #fff;
