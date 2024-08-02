@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/settings.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+
+    <title>RGD</title>
+  </head>
+  <body>
+    <div class="nav_top">
+     <p> Real Gold Digger</p>
+    </div>
+    <!--=============== NAVBAR ===============-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li>
+          <a href="./index.html" class="nav__link ">
+            <i class="ri-home-office-line "></i>
+            <p>Asosiy</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#about" class="nav__link">
+            <i class="ri-user-line"></i>
+            <p>Zakazlar</p>
+          </a>
+        </li>
+
+        <!-- Expand list -->
+        <li>
+          <button class="nav__expand" id="nav-expand">
+            <i class="ri-add-line nav__expand-icon" id="nav-expand-icon"></i>
+          </button>
+
+          <ul class="nav__expand-list" id="nav-expand-list">
+            <li>
+              <a href="#" class="nav__expand-link">
+                <i class="ri-image-2-line"></i>
+                <span>Gallery</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="nav__expand-link">
+                <i class="ri-archive-line"></i>
+                <span>Files</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="nav__expand-link">
+                <i class="ri-bookmark-3-line"></i>
+                <span>Saved</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#projects" class="nav__link active-link">
+            <i class="ri-settings-3-line"></i>
+            <p>Sozlamalar</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#contact" class="nav__link">
+            <i class="ri-send-plane-line"></i>
+            <p>Xarita</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--==================== MAIN ====================-->
+    <div class="wrapper">
+      <main class="container">
+            <div class="contact">
+                <h1 style="text-align: center; padding: 20px 0 10px 0">Sozlamalar</h1>
+                <p style="font-size: 12px; text-align: center;">Yangi parol o'rnatmoqchimisiz?</p>
+                <div class="contact_start">
+                    <div class="contact_box">
+                        <label for="name">Ismingiz</label>
+                        <input class="input-style" type="text" id="name" placeholder="Ismingiz">
+                    </div>
+                    <div class="contact_box">
+                        <label for="inn">JSHSHIR</label>
+                        <input class="input-style" id="inn" type="number" placeholder="JSHSHIR">
+                    </div>
+                    <div class="contact_box">
+                        <label for="password">Yangi Parolingiz</label>
+                        <input class="input-style" id="password" type="password" placeholder="Yangi Parolingiz">
+                    </div>
+                    <div class="contact_box">
+                        <label for="repassword">Yangi Parolingiz Takrorlang</label>
+                        <input class="input-style" id="repassword" type="password" placeholder="Yangi Parolingiz Takrorlang">
+                    </div>
+                </div>
+                <button class="btn_contact">Yangilash</button>
+            </div>
+       </main>
+    </div>
+  
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
